@@ -1,3 +1,4 @@
 {
   "extends": ["github>batect/renovate-config:bundle"]
 }
+
