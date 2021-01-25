@@ -1,6 +1,6 @@
 # golang-bundle
 
-[![Build Status](https://img.shields.io/github/workflow/status/batect/golang-bundle/Pipeline/master)](https://github.com/batect/golang-bundle/actions?query=workflow%3APipeline+branch%3Amaster)
+[![Build Status](https://img.shields.io/github/workflow/status/batect/golang-bundle/Pipeline/main)](https://github.com/batect/golang-bundle/actions?query=workflow%3APipeline+branch%3Amain)
 [![License](https://img.shields.io/github/license/batect/golang-bundle.svg)](https://opensource.org/licenses/Apache-2.0)
 
 A bundle for [Batect](https://batect.dev) that provides a development container for Golang, with sensible default configuration.
