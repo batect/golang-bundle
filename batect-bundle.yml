@@ -1,6 +1,6 @@
 containers:
   golang-build-env:
-    image: golang:1.17.8
+    image: golang:1.18.0
     volumes:
       - local: <{batect.project_directory}
         container: /code
