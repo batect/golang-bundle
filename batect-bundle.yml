@@ -8,6 +8,12 @@ containers:
       - type: cache
         name: go-cache
         container: /go
+      - local: $HOME/.gitconfig
+        container: /home/container-user/.gitconfig
+        options: ro
+      - local: $HOME/.ssh
+        container: /home/container-user/.ssh
+        options: ro
     working_directory: /code
     environment:
       # With the image above, GOPATH defaults to /go, so we don't need to set it explicitly.
